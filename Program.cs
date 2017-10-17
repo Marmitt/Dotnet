@@ -6,7 +6,25 @@ namespace console_dotnet
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            String nome;
+            nome = "Instituto Ivoti";
+            //Console.WriteLine("Hello World!");
+            Console.WriteLine(nome);
+
+            Double valor = 2.2;
+            Double quantidade = 6.234;
+            Double resultado = valor * quantidade;
+            Console.WriteLine(resultado);
+
+            Boolean maiorQueDez = resultado > 10;
+            if (maiorQueDez) {
+                System.Console.WriteLine("É maior que dez");
+                }
+                else {
+                System.Console.WriteLine("É menor que dez");
+                }
+                Program t = new Program();
+                System.Console.WriteLine(t.calculo(5,25));
         }
     }
 }
