@@ -28,6 +28,8 @@ namespace console_dotnet
                 System.Console.WriteLine(t.calculodivisao(25,5));
                 System.Console.WriteLine(t.calculosoma(95,5));
                 System.Console.WriteLine(t.calculosubtracao(15,5));
-        }       
+                TesteHumano p = new TesteHumano();
+                p.numerogerado();
+        }      
     }
 }
