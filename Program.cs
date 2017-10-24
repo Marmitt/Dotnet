@@ -23,7 +23,7 @@ namespace console_dotnet
                 else {
                 System.Console.WriteLine("É menor que dez");
                 }
-                Program t = new Program();
+                Calculadora t = new Calculadora();
                 System.Console.WriteLine(t.calculo(5,25));
         }
     }
