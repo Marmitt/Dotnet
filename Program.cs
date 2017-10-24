@@ -24,7 +24,10 @@ namespace console_dotnet
                 System.Console.WriteLine("É menor que dez");
                 }
                 Calculadora t = new Calculadora();
-                System.Console.WriteLine(t.calculo(5,25));
-        }
+                System.Console.WriteLine(t.calculox(5,25));
+                System.Console.WriteLine(t.calculodivisao(25,5));
+                System.Console.WriteLine(t.calculosoma(95,5));
+                System.Console.WriteLine(t.calculosubtracao(15,5));
+        }       
     }
 }
