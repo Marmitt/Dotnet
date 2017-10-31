@@ -11,7 +11,7 @@ namespace console_dotnet
             int soma = c + d;
             System.Console.WriteLine(c + "+" + d);
 
-            int resp = Convert.ToInt32(Console.Readline());
+            int resp = Convert.ToInt32(Console.ReadLine());
 
             if (resp == soma) {
                 System.Console.WriteLine("Acesso Liberado");
