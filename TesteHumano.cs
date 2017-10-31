@@ -14,10 +14,10 @@ namespace console_dotnet
             int resp = Convert.ToInt32(Console.ReadLine());
 
             if (resp == soma) {
-                System.Console.WriteLine("Acesso Liberado");
+                 System.Console.WriteLine("Acesso Liberado");
             }
             else {
-                System.Console.WriteLine("Acesso Negado");  
+                 System.Console.WriteLine("Acesso Negado");  
             }
         }    
     
