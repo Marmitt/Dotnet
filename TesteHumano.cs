@@ -8,8 +8,17 @@ namespace console_dotnet
             Random t = new Random();
             int c = t.Next(a, b);
             int d = t.Next(a, b);
-            System.Console.WriteLine(c + d);
+            int soma = c + d;
+            System.Console.WriteLine(c + "+" + d);
 
+            int resp = Convert.ToInt32(Console.Readline());
+
+            if (resp == soma) {
+                System.Console.WriteLine("Acesso Liberado");
+            }
+            else {
+                System.Console.WriteLine("Acesso Negado");  
+            }
         }    
     
     }
